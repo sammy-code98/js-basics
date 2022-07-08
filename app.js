@@ -26,3 +26,21 @@ function local() {
   console.log(lc);
 }
 local();
+
+
+// Operators:Arithmetic,Comparison,Logical,Assignment,Conditional
+
+var a = 23, b =22
+console.log(a+b)
+console.log(a-b)
+console.log(a/b)
+console.log(a%b)
+console.log(a*b)
+console.log(a == b)
+console.log(a != b)
+console.log(a >= b)
+console.log(a <= b)
+console.log(a && b)
+console.log(a || b)
+console.log(a & b)
+console.log((a>b) ? 'yes' : 'no');
