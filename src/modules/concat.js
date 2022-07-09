@@ -3,7 +3,7 @@
  * @type {string}
  *
  */
-const userName = "sammy";
+const userName = "John Doe";
 
 /**
  * Age of user

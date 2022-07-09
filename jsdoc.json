@@ -12,6 +12,7 @@
     },
     "opts":{
         "recurse":true,
-        "destination":"./docs/"
+        "destination":"./docs/",
+        "template": "custome-template"
     }
 }
