@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "learning and familarising myself with the basics of javascript",
   "main": "app.js",
-  "type": "module",
   "scripts": {
     "doc": "jsdoc -c jsdoc.json"
   },
