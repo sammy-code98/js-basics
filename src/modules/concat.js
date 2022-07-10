@@ -21,4 +21,4 @@ function concatenate() {
   return userName + userAge;
 }
 
-module.exports = { concatenate };
+module.exports =  concatenate ;
