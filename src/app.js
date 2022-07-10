@@ -1,2 +1,3 @@
-import {concatenate} from "./modules/concat.js"
+const  concatenate  = require("./modules/concat");
+
 console.log(concatenate());

@@ -3,7 +3,7 @@
  * @type {string}
  *
  */
-const userName = "John Doe";
+const userName = "JohnDoe";
 
 /**
  * Age of user
@@ -13,7 +13,7 @@ const userAge = 20;
 
 /**
  * Function to Concatenate a string variable with a number variable
- * @function 
+ * @function
  * @returns {string} - String variable concatenated with a number variable
  */
 
@@ -21,4 +21,4 @@ function concatenate() {
   return userName + userAge;
 }
 
-export { concatenate };
+module.exports = { concatenate };
