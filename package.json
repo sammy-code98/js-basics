@@ -4,11 +4,8 @@
   "description": "learning and familarising myself with the basics of javascript",
   "main": "app.js",
   "scripts": {
-    "doc": "jsdoc -c jsdoc.json"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "jsdoc": "^3.6.10"
-  }
+  "license": "ISC"
 }
