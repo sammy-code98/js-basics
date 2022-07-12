@@ -1,7 +1,7 @@
 /** Function to check if a number is a palindrome
  * @function
  * @return {boolean}
- * @param {number}
+ * @param {number} - val
  */
 
 function isPalindrome(val) {
@@ -15,16 +15,16 @@ function isPalindrome(val) {
    */
   const valLength = val.toString().length;
 
-  /**Loop through the val
-   * @returns {array}
-   *
+  /**
+   * Loop through the val
    */
-  for (let i = 0; i < valLength / 2; i++) {
+  for (let i = 0; i < valLength; i++) {
     /**
      * check if the first and last item are same
      * @returns {boolean}
      */
-    if (val[i] !== val[valLength - 1 - i]) {
+    if (val[i] !== val[valLength - 1]) {
+      /** if number not a palidrome return false else return true */
       return false;
     }
     return true;
