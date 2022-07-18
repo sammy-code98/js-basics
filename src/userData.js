@@ -1,3 +1,6 @@
+/**
+ * @
+ */
 const userDetails =  [
     { name: 'rute', age: 18, gender: 'male' },
     { name: 'jude', age: 10, gender: 'male' },
