@@ -1,7 +1,6 @@
 const concatenate = require("./modules/concat");
 const isPalindrome = require("./modules/palidrome");
 const sumOfNumbers = require("./modules/arraySum");
-const userDetails = require("./userData");
 
 // console.log(concatenate());
 console.log(isPalindrome("45"));
