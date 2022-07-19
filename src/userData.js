@@ -1,5 +1,5 @@
 /**
- * @param {Array} - array  contianing user details: name, age and gender
+ * @param {Array.<Object>} - array  contianing user details: name, age and gender
  */
 const userDetails = [
   { name: "rute", age: 18, gender: "male" },
