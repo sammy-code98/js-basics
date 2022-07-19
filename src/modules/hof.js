@@ -1,11 +1,11 @@
 const userDetails = require("../userData");
 
-function ageLessThanTwentyone(age) {
-    userDetails.map(age => {
-        return  age < 21
-    })
-    console.log(age <21);
+/**
+ * @function - to filter the objects in an array with user age less than 21
+ * @returns {Array}
+ */
+const ageLessThanTwentyone = userDetails.filter(userDetail =>{
+   return  userDetail.age < 21
+})
 
-}
-
-ageLessThanTwentyone()
+console.log(ageLessThanTwentyone);
