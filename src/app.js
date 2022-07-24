@@ -3,7 +3,7 @@ const isPalindrome = require("./modules/palidrome");
 const sumOfNumbers = require("./modules/arraySum");
 const higherOrderFunctions = require("./modules/hof");
 const sum = require("./modules/complexSum");
-const stringMethods = require("./modules/stringMethods")
+const stringMethods = require("./modules/stringMethods");
 
 // console.log(concatenate());
 // console.log(isPalindrome("45"));
@@ -21,4 +21,7 @@ const stringMethods = require("./modules/stringMethods")
 
 // console.log(sum(11,4));
 
-console.log(stringMethods.getLastStringCharacter("emmanuel"))
+console.log(stringMethods.getLastStringCharacter("emmanuel"));
+console.log(
+  stringMethods.convertStringToArray("Simple is better than complex")
+);
