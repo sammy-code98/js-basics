@@ -22,4 +22,36 @@ function convertStringToArray(stringText){
 
 
 
-module.exports = { getLastStringCharacter , convertStringToArray };
+/**
+ * @function - reverses a givien input
+ * @param {*} stringData  - string text to be reversed
+ * @returns  {String}
+ */
+
+function reverseString(stringData){
+    const splitData = stringData.split("")
+    const reverseData = splitData.reverse()
+    const joinData = reverseData.join("")
+
+    return joinData
+
+}
+
+
+
+/**
+ * @function - checks if a letter is a vowel or not
+ * @param {*} val 
+ * @returns {Boolean}
+ */
+
+function checkVowel(val){
+    if(val == 'a' || val == 'e' || val == 'i' || val == 'o' || val == 'u'){
+        return true
+    }else{
+        return false
+    }
+}
+
+
+module.exports = { getLastStringCharacter , convertStringToArray, reverseString, checkVowel };

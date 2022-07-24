@@ -25,3 +25,6 @@ console.log(stringMethods.getLastStringCharacter("emmanuel"));
 console.log(
   stringMethods.convertStringToArray("Simple is better than complex")
 );
+console.log(stringMethods.reverseString("funny"));
+
+console.log(stringMethods.checkVowel("a"));
