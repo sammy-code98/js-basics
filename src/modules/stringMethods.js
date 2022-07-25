@@ -1,6 +1,6 @@
 /**
  * @function - function to find the last character of a string
- * @param {*} stringValue  - string you want to find its last character
+ * @param {String} -stringValue : string you want to find its last character
  * @returns {String} - last character of the stringValue
  */
 
@@ -12,7 +12,7 @@ function getLastStringCharacter(stringValue) {
 
 /**
  * @function  - convert a text of string to an array of strings
- * @param {*} stringText 
+ * @param {String} -stringText 
  * @returns {Array.<String>}
  */
 
@@ -24,16 +24,17 @@ function convertStringToArray(stringText){
 
 /**
  * @function - reverses a givien input
- * @param {*} stringData  - string text to be reversed
+ * @param {String} -stringData  : string text to be reversed
  * @returns  {String}
  */
 
 function reverseString(stringData){
-    const splitData = stringData.split("")
-    const reverseData = splitData.reverse()
-    const joinData = reverseData.join("")
+    // const splitData = stringData.split("")
+    // const reverseData = splitData.reverse()
+    // const joinData = reverseData.join("")
 
-    return joinData
+    // return joinData
+    return stringData.split("").reverse("").join("")
 
 }
 
@@ -41,16 +42,15 @@ function reverseString(stringData){
 
 /**
  * @function - checks if a letter is a vowel or not
- * @param {*} val 
+ * @param {String} - a letter to check if its a vowel or not
  * @returns {Boolean}
  */
 
 function checkVowel(val){
     if(val == 'a' || val == 'e' || val == 'i' || val == 'o' || val == 'u'){
         return true
-    }else{
-        return false
     }
+    return false
 }
 
 

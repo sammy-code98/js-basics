@@ -1,8 +1,8 @@
 /**
  * @function - function to add two numbers
  * @desc Add two numbers, returns 0 if the sum of the two numbers is greater than 21, if a number = 11, convert to 1 and sum up
- * @param {*} a
- * @param {*} b
+ * @param {Number} -a
+ * @param {Number}  -b
  * @returns {Number}
  */
 
