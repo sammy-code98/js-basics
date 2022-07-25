@@ -54,4 +54,5 @@ function checkVowel(val){
 }
 
 
+
 module.exports = { getLastStringCharacter , convertStringToArray, reverseString, checkVowel };
