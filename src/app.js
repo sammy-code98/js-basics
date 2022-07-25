@@ -27,4 +27,4 @@ console.log(
 );
 console.log(stringMethods.reverseString("funny"));
 
-console.log(stringMethods.checkVowel("a"));
+console.log(stringMethods.checkVowel("b"));
