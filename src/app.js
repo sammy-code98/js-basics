@@ -19,12 +19,12 @@ const stringMethods = require("./modules/stringMethods");
 // );
 // console.log("findAllFemales::", higherOrderFunctions.findAllFemales);
 
-// console.log(sum(11,4));
+console.log(sum(2, 11));
 
-console.log(stringMethods.getLastStringCharacter("emmanuel"));
-console.log(
-  stringMethods.convertStringToArray("Simple is better than complex")
-);
-console.log(stringMethods.reverseString("funny"));
+// console.log(stringMethods.getLastStringCharacter("emmanuel"));
+// console.log(
+//   stringMethods.convertStringToArray("Simple is better than complex")
+// );
+// console.log(stringMethods.reverseString("funny"));
 
-console.log(stringMethods.checkVowel("b"));
+// console.log(stringMethods.checkVowel("b"));
